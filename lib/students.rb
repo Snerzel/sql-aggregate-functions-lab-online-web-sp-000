@@ -17,5 +17,5 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
-  "SELECT gpa FROM grade WHERE gpa BETWEEN 0.0001 AND 3.3"
+  "SELECT grade FROM students WHERE gpa BETWEEN 0.0001 AND 3.3"
 end
